@@ -1,5 +1,3 @@
-import { EMPTY_USER } from 'models/Fixtures/User';
-import { IUser } from 'models/User';
 import { AnyAction } from 'redux';
 import { LOGIN_TYPES } from './login.types';
 

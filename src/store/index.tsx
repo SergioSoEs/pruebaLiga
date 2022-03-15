@@ -7,7 +7,7 @@ import userReducer from './User/user.reducer';
 
 const sagaMiddleware = createSagaMiddleware();
 
-const rootReducer = combineReducers({
+export const rootReducer = combineReducers({
   login: loginReducer,
   user: userReducer,
 });
