@@ -3,13 +3,8 @@ import { render, screen } from '@testing-library/react';
 import App from './App';
 import { createStore } from 'Test/test.utils';
 import { Provider } from 'react-redux';
-import { ROUTES } from 'routes';
-import { createBrowserHistory } from 'history';
-import { BrowserRouter as Router } from 'react-router-dom';
 
 describe('App', () => {
-  const history = createBrowserHistory();
-
   const renderApp = (props = {}) => {
     render(
       <Provider store={createStore()}>
