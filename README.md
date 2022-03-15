@@ -27,4 +27,5 @@ Entorno de desarrollo
     - Axios para gestionar las peticiones.
     - Typescript: Para ayudar a la escalabilidad del proyecto y el control del flujo de datos alrededor de la aplicación.
     - React Testing Library (RTL) & Jest para automatización de test.
+    - Husky para pasar automáticamente lint antes de cada commit y los test antes de un push
     
