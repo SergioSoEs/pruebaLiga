@@ -9,7 +9,3 @@ const PrivateRoute = ({ ...props }) => {
 };
 
 export default PrivateRoute;
-
-export const MainRoute = ({ ...props }) => {
-  return <Route {...props} />;
-};

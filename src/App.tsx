@@ -5,7 +5,8 @@ import './App.css';
 import { ROUTES } from './routes';
 import Home from './pages/Home/Home';
 import Login from './pages/Login/Login';
-import PrivateRoute, { MainRoute } from 'components/PrivateRoute/PrivateRoute';
+import PrivateRoute from 'components/PrivateRoute/PrivateRoute';
+import MainRoute from 'components/MainRoute/MainRoute';
 import EditUser from 'pages/EditUser/EditUser';
 import Navbar from 'components/Navbar/Navbar';
 

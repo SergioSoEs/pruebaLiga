@@ -18,7 +18,7 @@ import { DeleteButton } from 'components/Button/Button.styles';
 
 const EditUser = () => {
   const history = useHistory();
-  const { id } = useParams();
+  const { id } = useParams<{ id: string }>();
   const dispatch = useDispatch();
 
   const user = useSelector(selectUser);
