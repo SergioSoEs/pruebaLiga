@@ -8,7 +8,7 @@ interface ILoginState {
   isLogged: Boolean;
 }
 
-const INITIAL_STATE: ILoginState = {
+export const INITIAL_STATE: ILoginState = {
   token: '',
   loading: false,
   error: '',
