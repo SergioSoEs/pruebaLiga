@@ -3,10 +3,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Versión de Node: 12.16.1 o superior
 Versión de NPM: 6.13.4 o superiror
-Compatibilidad: ES6 Navegadores evergreen (Chrome, Firefox, Edge, Safari)
 
-## Instrucciones
-- [Instrucciones](src/docs/laliga-prueba-tecnica-instrucciones.md)
+Compatibilidad: ES6 Navegadores evergreen (Chrome, Firefox, Edge, Safari)
 
 ## Entorno de desarrollo local
 
@@ -14,7 +12,8 @@ Compatibilidad: ES6 Navegadores evergreen (Chrome, Firefox, Edge, Safari)
 Para instalación de dependencias
 
 ### `npm start`
-Entorno de desarrollo
+Entorno de desarrollo 
+http://localhost:3000
 
 ## Memoria
 
